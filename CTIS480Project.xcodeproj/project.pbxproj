@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6364B21E2BFA5567006EDC04 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364B21D2BFA5567006EDC04 /* EventCollectionViewCell.swift */; };
+		63BD28BA2BFBBB0600777F9B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 63BD28B92BFBBB0600777F9B /* data.json */; };
+		63F1837A2BFA402A00403F3E /* EventsData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F183782BFA402A00403F3E /* EventsData+CoreDataClass.swift */; };
+		63F1837B2BFA402A00403F3E /* EventsData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F183792BFA402A00403F3E /* EventsData+CoreDataProperties.swift */; };
+		7F14E37B2BFA14C200ADE285 /* OrganizerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F14E37A2BFA14C200ADE285 /* OrganizerVC.swift */; };
+		7F14E37D2BFA22C000ADE285 /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F14E37C2BFA22C000ADE285 /* AddEventVC.swift */; };
+		7F14E37F2BFA2ECB00ADE285 /* UpdateEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F14E37E2BFA2ECB00ADE285 /* UpdateEventVC.swift */; };
+		7F2A9D4A2BF928FD00EADEA6 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2A9D492BF928FD00EADEA6 /* CalendarCell.swift */; };
+		7F2A9D4C2BF92D4100EADEA6 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2A9D4B2BF92D4100EADEA6 /* EventVC.swift */; };
+		7F3CD2A72BF8E07100D50C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD2A62BF8E07100D50C33 /* AppDelegate.swift */; };
+		7F3CD2A92BF8E07100D50C33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD2A82BF8E07100D50C33 /* SceneDelegate.swift */; };
+		7F3CD2AE2BF8E07100D50C33 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7F3CD2AD2BF8E07100D50C33 /* Base */; };
+		7F3CD2B12BF8E07100D50C33 /* CTIS480Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD2AF2BF8E07100D50C33 /* CTIS480Project.xcdatamodeld */; };
+		7F3CD2B32BF8E07300D50C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3CD2B22BF8E07300D50C33 /* Assets.xcassets */; };
+		7F3CD2B62BF8E07300D50C33 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7F3CD2B52BF8E07300D50C33 /* Base */; };
+		7F3CD2BE2BF8E0BE00D50C33 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD2BD2BF8E0BE00D50C33 /* IntroVC.swift */; };
+		7F3CD2C02BF8E91000D50C33 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD2BF2BF8E91000D50C33 /* UserVC.swift */; };
+		7F3CD2C42BF90B2C00D50C33 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CD2C32BF90B2C00D50C33 /* CalendarVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6364B21D2BFA5567006EDC04 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		63BD28B92BFBBB0600777F9B /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		63F183782BFA402A00403F3E /* EventsData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "EventsData+CoreDataClass.swift"; path = "CTIS480Project/EventsData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		63F183792BFA402A00403F3E /* EventsData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "EventsData+CoreDataProperties.swift"; path = "CTIS480Project/EventsData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7F14E37A2BFA14C200ADE285 /* OrganizerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerVC.swift; sourceTree = "<group>"; };
+		7F14E37C2BFA22C000ADE285 /* AddEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
+		7F14E37E2BFA2ECB00ADE285 /* UpdateEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEventVC.swift; sourceTree = "<group>"; };
+		7F2A9D492BF928FD00EADEA6 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		7F2A9D4B2BF92D4100EADEA6 /* EventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
+		7F3CD2A32BF8E07100D50C33 /* CTIS480Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTIS480Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3CD2A62BF8E07100D50C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F3CD2A82BF8E07100D50C33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F3CD2AD2BF8E07100D50C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F3CD2B02BF8E07100D50C33 /* CTIS480Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CTIS480Project.xcdatamodel; sourceTree = "<group>"; };
+		7F3CD2B22BF8E07300D50C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F3CD2B52BF8E07300D50C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F3CD2B72BF8E07300D50C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3CD2BD2BF8E0BE00D50C33 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		7F3CD2BF2BF8E91000D50C33 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		7F3CD2C32BF90B2C00D50C33 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3CD2A02BF8E07100D50C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F3CD29A2BF8E07100D50C33 = {
+			isa = PBXGroup;
+			children = (
+				63F183782BFA402A00403F3E /* EventsData+CoreDataClass.swift */,
+				63F183792BFA402A00403F3E /* EventsData+CoreDataProperties.swift */,
+				7F3CD2A52BF8E07100D50C33 /* CTIS480Project */,
+				7F3CD2A42BF8E07100D50C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3CD2A42BF8E07100D50C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CD2A32BF8E07100D50C33 /* CTIS480Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3CD2A52BF8E07100D50C33 /* CTIS480Project */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CD2A62BF8E07100D50C33 /* AppDelegate.swift */,
+				7F3CD2A82BF8E07100D50C33 /* SceneDelegate.swift */,
+				7F3CD2BD2BF8E0BE00D50C33 /* IntroVC.swift */,
+				7F3CD2BF2BF8E91000D50C33 /* UserVC.swift */,
+				7F3CD2C32BF90B2C00D50C33 /* CalendarVC.swift */,
+				63BD28B92BFBBB0600777F9B /* data.json */,
+				7F2A9D492BF928FD00EADEA6 /* CalendarCell.swift */,
+				7F2A9D4B2BF92D4100EADEA6 /* EventVC.swift */,
+				7F14E37A2BFA14C200ADE285 /* OrganizerVC.swift */,
+				7F14E37E2BFA2ECB00ADE285 /* UpdateEventVC.swift */,
+				7F14E37C2BFA22C000ADE285 /* AddEventVC.swift */,
+				7F3CD2AC2BF8E07100D50C33 /* Main.storyboard */,
+				7F3CD2B22BF8E07300D50C33 /* Assets.xcassets */,
+				7F3CD2B42BF8E07300D50C33 /* LaunchScreen.storyboard */,
+				7F3CD2B72BF8E07300D50C33 /* Info.plist */,
+				7F3CD2AF2BF8E07100D50C33 /* CTIS480Project.xcdatamodeld */,
+				6364B21D2BFA5567006EDC04 /* EventCollectionViewCell.swift */,
+			);
+			path = CTIS480Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3CD2A22BF8E07100D50C33 /* CTIS480Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3CD2BA2BF8E07300D50C33 /* Build configuration list for PBXNativeTarget "CTIS480Project" */;
+			buildPhases = (
+				7F3CD29F2BF8E07100D50C33 /* Sources */,
+				7F3CD2A02BF8E07100D50C33 /* Frameworks */,
+				7F3CD2A12BF8E07100D50C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTIS480Project;
+			productName = CTIS480Project;
+			productReference = 7F3CD2A32BF8E07100D50C33 /* CTIS480Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3CD29B2BF8E07100D50C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7F3CD2A22BF8E07100D50C33 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 7F3CD29E2BF8E07100D50C33 /* Build configuration list for PBXProject "CTIS480Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3CD29A2BF8E07100D50C33;
+			productRefGroup = 7F3CD2A42BF8E07100D50C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3CD2A22BF8E07100D50C33 /* CTIS480Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3CD2A12BF8E07100D50C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3CD2B32BF8E07300D50C33 /* Assets.xcassets in Resources */,
+				7F3CD2B62BF8E07300D50C33 /* Base in Resources */,
+				7F3CD2AE2BF8E07100D50C33 /* Base in Resources */,
+				63BD28BA2BFBBB0600777F9B /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3CD29F2BF8E07100D50C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F1837A2BFA402A00403F3E /* EventsData+CoreDataClass.swift in Sources */,
+				6364B21E2BFA5567006EDC04 /* EventCollectionViewCell.swift in Sources */,
+				63F1837B2BFA402A00403F3E /* EventsData+CoreDataProperties.swift in Sources */,
+				7F14E37F2BFA2ECB00ADE285 /* UpdateEventVC.swift in Sources */,
+				7F3CD2B12BF8E07100D50C33 /* CTIS480Project.xcdatamodeld in Sources */,
+				7F3CD2C02BF8E91000D50C33 /* UserVC.swift in Sources */,
+				7F3CD2C42BF90B2C00D50C33 /* CalendarVC.swift in Sources */,
+				7F14E37B2BFA14C200ADE285 /* OrganizerVC.swift in Sources */,
+				7F2A9D4C2BF92D4100EADEA6 /* EventVC.swift in Sources */,
+				7F3CD2BE2BF8E0BE00D50C33 /* IntroVC.swift in Sources */,
+				7F3CD2A72BF8E07100D50C33 /* AppDelegate.swift in Sources */,
+				7F14E37D2BFA22C000ADE285 /* AddEventVC.swift in Sources */,
+				7F3CD2A92BF8E07100D50C33 /* SceneDelegate.swift in Sources */,
+				7F2A9D4A2BF928FD00EADEA6 /* CalendarCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F3CD2AC2BF8E07100D50C33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3CD2AD2BF8E07100D50C33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F3CD2B42BF8E07300D50C33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3CD2B52BF8E07300D50C33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F3CD2B82BF8E07300D50C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F3CD2B92BF8E07300D50C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3CD2BB2BF8E07300D50C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CTIS480Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekin.CTIS480Project;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F3CD2BC2BF8E07300D50C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CTIS480Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekin.CTIS480Project;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3CD29E2BF8E07100D50C33 /* Build configuration list for PBXProject "CTIS480Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3CD2B82BF8E07300D50C33 /* Debug */,
+				7F3CD2B92BF8E07300D50C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3CD2BA2BF8E07300D50C33 /* Build configuration list for PBXNativeTarget "CTIS480Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3CD2BB2BF8E07300D50C33 /* Debug */,
+				7F3CD2BC2BF8E07300D50C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F3CD2AF2BF8E07100D50C33 /* CTIS480Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F3CD2B02BF8E07100D50C33 /* CTIS480Project.xcdatamodel */,
+			);
+			currentVersion = 7F3CD2B02BF8E07100D50C33 /* CTIS480Project.xcdatamodel */;
+			path = CTIS480Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F3CD29B2BF8E07100D50C33 /* Project object */;
+}
